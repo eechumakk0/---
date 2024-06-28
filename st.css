@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+}
+
+body {
+    color: rgb(156, 133, 153)
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0 10px 0;
+    background-color: rgb(245, 242, 242);
+}
+
+
+/*
+MIB
+*/
+.logAut {
+    position: relative;
+    font-size: 36px;
+    color: rgb(139, 153, 156);
+    text-decoration: none;
+    font-weight: 40;
+    cursor: pointer;
+    color: transparent;
+    left: 80px;
+}
+
+.logAut::after {
+    position: relative;
+    content: "  M  " "  I  " "  B  ";
+    transition: 2s ease;
+    background-image: linear-gradient(to right, #ff5f6d, #53ee6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logAut:hover::after{
+    content: "My Imsit Bibliotech";
+    background-image: linear-gradient(to right, #ff5f6d, #53ee6c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*
+MIB
+*/
+
+
+
+
+
+.n {
+    padding: 0 75px;
+    text-align: center;
+}
+
+.n a {
+    text-decoration: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px 50px;
+    text-indent: -1em;
+    padding-left: 1em;
+}
+
+.n a:hover {
+    background-image: ;
+    background-size: 0 100%;
+    background-position: center;
+}
+
+
+/* Основная */
+
+main { 
+    background: rgb(190, 194, 192);
+    width: 100%;
+    height: 100%;
+    padding: 0 0 0 0;
+}
+
+
+/*Библиотека экран*/
+.section {
+    top: 0px;
+    margin-top: 0px;
+    padding: 20px;
+    background-image: linear-gradient(to bottom, rgb(245, 242, 242), rgb(223, 218, 218));
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+
+/* Секция до набора блоков */
+.div-main {
+    padding: 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* Открытый доступ */
+
+.btn {
+    text-align: left;
+    background-image: linear-gradient(to bottom, rgb(223, 218, 218), rgb(190, 194, 192));
+    padding: 20px 20px;
+    color:rgb(217, 247, 235)
+}
+
+/* Секция набора блоков */
+
+.book {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Блок*/
+.block {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 25px;
+    height: 510px;
+    width: 400px;
+    position: relative;
+    border: 2px solid black;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.img-block {
+    height: 200px;
+    width: 150px;
+}
+
+#bookInfo {
+    display: none;
+    height: 450px;
+    overflow: auto;
+}
+
+
+#showInf {
+    position: relative;
+    border-radius: 100px 100px 0 0;
+    text-align: center;
+    height: 60px;
+    width: 400px;
+    background-image: linear-gradient(to bottom, rgb(230, 227, 223), rgb(146, 236, 191));;
+}
+ 
+.btn-2 {
+    background-image: rgb(190, 194, 192);
+}
+
+
+/* footer */
+
+.footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.social-icons {
+    margin-bottom: 10px;
+}
+.social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
