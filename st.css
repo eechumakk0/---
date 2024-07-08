@@ -9,60 +9,11 @@ body {
 }
 
 header {
-    width: 100%;
-    padding: 15px 5px 15px 5px;
     background-color: rgb(245, 242, 242);
 }
 
-.logAut {
-    position: relative;
-    font-size: 36px;
-    color: rgb(139, 153, 156);
-    text-decoration: none;
-    font-weight: 40;
-    cursor: pointer;
-    color: transparent;
-    left: 80px;
-}
-
-.logAut::after {
-    position: relative;
-    content: "  M  " "  I  " "  B  ";
-    transition: 2s ease;
-    background-image: linear-gradient(to right, #ff5f6d, #53ee6c);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.logAut:hover::after{
-    content: "My Imsit Bibliotech";
-    background-image: linear-gradient(to right, #ff5f6d, #53ee6c);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-/*
-MIB
-*/
-
-
-.n {
-    padding: 0 75px;
-    text-align: center;
-}
-
-.n a {
-    text-decoration: none;
-    display: inline-block;
-    justify-content: space-between;
-    padding: 20px 50px;
-    text-indent: -1em;
-    padding-left: 1em;
-}
-
-.n a:hover {
-    background-image: ;
-    background-size: 0 100%;
-    background-position: center;
+.section-header-crown {
+    display: flex;
 }
 
 
